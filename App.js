@@ -10,15 +10,20 @@ console.log(heading);
 
 //JSX => is a HTML like syntax or XML like syntax
 //JSX => (transpiled before it reaches the jS) => PARCEL => BABEL (transpile)
-const jsxHeading = <h1>Hello I am from jsx using heading</h1>;
-console.log(jsxHeading);
+const Title = () => (<h1>Hello I am from jsx using heading 🚀</h1>);
+// console.log(jsxHeading);
 
 // React functional component
 const HeadingComponent = () => {
-  return <h1 className="heading">React functional component</h1>
-}
+  return <h1 className="heading">React functional component</h1>;
+};
 //OR
-const HeadingComponent1 = () => (<h1 className="heading">React functional component</h1>)
+const HeadingComponent1 = () => (
+ <div id="container">
+   <Title></Title>
+  <h1 className="heading">React functional component</h1>
+ </div>
+);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(jsxHeading);
+root.render(<HeadingComponent1 />);
