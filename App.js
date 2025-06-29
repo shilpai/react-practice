@@ -13,5 +13,12 @@ console.log(heading);
 const jsxHeading = <h1>Hello I am from jsx using heading</h1>;
 console.log(jsxHeading);
 
+// React functional component
+const HeadingComponent = () => {
+  return <h1 className="heading">React functional component</h1>
+}
+//OR
+const HeadingComponent1 = () => (<h1 className="heading">React functional component</h1>)
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(jsxHeading);

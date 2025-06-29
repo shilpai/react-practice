@@ -38,3 +38,6 @@
    Supports secure local development.
  - Tree Shaking: 
    Eliminates unused code from the final bundle.
+
+   #Functional Component 
+   - A function which is returning some piece of jsx is a functional component
