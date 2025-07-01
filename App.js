@@ -1,31 +1,34 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const heading = React.createElement(
-  "h2",
-  { id: "heading" },
-  "react using core react"
-);
-console.log(heading);
-
-//JSX => is a HTML like syntax or XML like syntax
-//JSX => (transpiled before it reaches the jS) => PARCEL => BABEL (transpile)
-const Title = () => <h1>Hello I am from jsx using heading 🚀</h1>;
-// console.log(jsxHeading);
-
-// React functional component
-const HeadingComponent = () => {
-  return <h1 className="heading">React functional component</h1>;
+const Header = () => {
+  return (
+    <div className="header">
+      <div className="logo-container">
+        <img
+          className="logo"
+          src="https://www.logodesign.net/logo/smoking-burger-with-lettuce-3624ld.png?nwm=1&nws=1&industry=fast-food&sf=&txt_keyword=All"
+        ></img>
+      </div>
+      <div className="nav-items">
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Contact Us</li>
+          <li>Cart</li>
+        </ul>
+      </div>
+    </div>
+  );
 };
-//OR
-const HeadingComponent1 = () => (
-  <div id="container">
-    {Title()}
-    <Title/>
-    <Title></Title>
-    <h1 className="heading">React functional component</h1>
-  </div>
-);
+
+const Applayout = () => {
+  return (
+    <div className="app">
+      <Header />
+    </div>
+  );
+};
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<HeadingComponent1 />);
+root.render(<Applayout />);
