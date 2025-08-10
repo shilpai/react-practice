@@ -45,24 +45,31 @@ const Header = () => {
 
 const ReastaurantCard = (props) => {
   const { resData } = props;
+  
+  // Destructure from resData.data directly (since resData is the restaurant object)
+  const {
+    cloudinaryImageId,
+    name, 
+    cuisines, 
+    avgRating, 
+    costForTwo, 
+    sla
+  } = resData?.data; // Changed from resData.data to just resData.data
 
-  // const {resName, cusines} = props;
-  console.log(props);
   return (
     <div className="res-card" style={styleCrad}>
       <img
         className="res-logo"
         src={
-          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/" +
-          resData.data.cloudinaryImageId
+          `https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/${cloudinaryImageId}`
         }
+        alt={name}
       />
-
-      <h3>{resData.data.name}</h3>
-      <h4>{resData.data.cuisines.join(", ")}</h4>
-      <h4>{resData.data.avgRating}</h4>
-      <h4>{resData.data.costForTwo}</h4>
-      <h4>{resData.data.sla.slaString}</h4>
+      <h3>{name}</h3>
+      <h4>{cuisines.join(", ")}</h4>
+      <h4>{avgRating} stars</h4>
+      <h4>{costForTwo}</h4>
+      <h4>{sla?.slaString || "30-35 mins"}</h4>
     </div>
   );
 };
@@ -2022,7 +2029,14 @@ const Body = () => {
     <div className="body">
       <div className="search">Search</div>
       <div className="res-container">
+        {resList.map((restaurant) => (
+          <ReastaurantCard key={restaurant.data.id} resData={restaurant} />
+        ))}
+        {/* <ReastaurantCard resData={resList[0]} />
         <ReastaurantCard resData={resList[1]} />
+        <ReastaurantCard resData={resList[2]} />
+        <ReastaurantCard resData={resList[3]} />
+        <ReastaurantCard resData={resList[4]} /> */}
       </div>
     </div>
   );
