@@ -134,7 +134,7 @@ const ReastaurantCard = (props) => {
 // };
 
 const resList = [
-{
+  {
     type: "restaurant",
     data: {
       type: "F",
@@ -156,7 +156,7 @@ const resList = [
       lastMileTravel: 3.5,
       slugs: {
         restaurant: "kfc-btm-layout-btm",
-        city: "bangalore",
+        city: "bangalore"
       },
       cityState: "1",
       address:
@@ -174,19 +174,19 @@ const resList = [
           {
             meta: "FREE DELIVERY",
             discountType: "FREE_DELIVERY",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         descriptionList: [
           {
             meta: "FREE DELIVERY",
             discountType: "FREE_DELIVERY",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         subHeader: "",
         headerType: 0,
-        superFreedel: "",
+        superFreedel: ""
       },
       aggregatedDiscountInfoV2: {
         header: "",
@@ -194,24 +194,24 @@ const resList = [
           {
             meta: "Free Delivery",
             discountType: "FREE_DELIVERY",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         descriptionList: [
           {
             meta: "FREE DELIVERY",
             discountType: "FREE_DELIVERY",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         subHeader: "",
         headerType: 0,
-        superFreedel: "",
+        superFreedel: ""
       },
       ribbon: [
         {
-          type: "PROMOTED",
-        },
+          type: "PROMOTED"
+        }
       ],
       chain: [],
       feeDetails: {
@@ -220,12 +220,12 @@ const resList = [
         message: "",
         title: "",
         amount: "",
-        icon: "",
+        icon: ""
       },
       availability: {
         opened: true,
         nextOpenMessage: "",
-        nextCloseMessage: "",
+        nextCloseMessage: ""
       },
       longDistanceEnabled: 0,
       rainMode: "NONE",
@@ -235,7 +235,7 @@ const resList = [
       badges: {
         imageBased: [],
         textBased: [],
-        textExtendedBadges: [],
+        textExtendedBadges: []
       },
       lastMileTravelString: "3.5 kms",
       hasSurge: false,
@@ -250,14 +250,14 @@ const resList = [
         rainMode: "NONE",
         longDistance: "NOT_LONG_DISTANCE",
         preferentialService: false,
-        iconType: "EMPTY",
+        iconType: "EMPTY"
       },
       promoted: true,
       avgRating: "3.8",
       totalRatings: 500,
-      new: false,
+      new: false
     },
-    subtype: "basic",
+    subtype: "basic"
   },
   {
     type: "restaurant",
@@ -276,7 +276,7 @@ const resList = [
         "South Indian",
         "North Indian",
         "Chinese",
-        "Seafood",
+        "Seafood"
       ],
       tags: [],
       costForTwo: 50000,
@@ -288,7 +288,7 @@ const resList = [
       lastMileTravel: 1.399999976158142,
       slugs: {
         restaurant: "meghana-foods-5th-block-koramangala",
-        city: "bangalore",
+        city: "bangalore"
       },
       cityState: "1",
       address:
@@ -306,19 +306,19 @@ const resList = [
           {
             meta: "FREE DELIVERY",
             discountType: "FREE_DELIVERY",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         descriptionList: [
           {
             meta: "FREE DELIVERY",
             discountType: "FREE_DELIVERY",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         subHeader: "",
         headerType: 0,
-        superFreedel: "",
+        superFreedel: ""
       },
       aggregatedDiscountInfoV2: {
         header: "",
@@ -326,19 +326,19 @@ const resList = [
           {
             meta: "Free Delivery",
             discountType: "FREE_DELIVERY",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         descriptionList: [
           {
             meta: "FREE DELIVERY",
             discountType: "FREE_DELIVERY",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         subHeader: "",
         headerType: 0,
-        superFreedel: "",
+        superFreedel: ""
       },
       chain: [],
       feeDetails: {
@@ -347,12 +347,12 @@ const resList = [
         message: "",
         title: "",
         amount: "",
-        icon: "",
+        icon: ""
       },
       availability: {
         opened: true,
         nextOpenMessage: "",
-        nextCloseMessage: "",
+        nextCloseMessage: ""
       },
       longDistanceEnabled: 0,
       rainMode: "NONE",
@@ -362,7 +362,7 @@ const resList = [
       badges: {
         imageBased: [],
         textBased: [],
-        textExtendedBadges: [],
+        textExtendedBadges: []
       },
       lastMileTravelString: "1.3 kms",
       hasSurge: false,
@@ -377,14 +377,14 @@ const resList = [
         rainMode: "NONE",
         longDistance: "NOT_LONG_DISTANCE",
         preferentialService: false,
-        iconType: "EMPTY",
+        iconType: "EMPTY"
       },
       promoted: false,
       avgRating: "4.4",
       totalRatings: 1000,
-      new: false,
+      new: false
     },
-    subtype: "basic",
+    subtype: "basic"
   },
   {
     type: "restaurant",
@@ -408,7 +408,7 @@ const resList = [
       lastMileTravel: 3,
       slugs: {
         restaurant: "kannur-food-point-btm",
-        city: "bangalore",
+        city: "bangalore"
       },
       cityState: "1",
       address:
@@ -426,29 +426,29 @@ const resList = [
           {
             meta: "FREE DELIVERY",
             discountType: "FREE_DELIVERY",
-            operationType: "RESTAURANT",
+            operationType: "RESTAURANT"
           },
           {
             meta: "50% off on all orders",
             discountType: "Percentage",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         descriptionList: [
           {
             meta: "FREE DELIVERY",
             discountType: "FREE_DELIVERY",
-            operationType: "RESTAURANT",
+            operationType: "RESTAURANT"
           },
           {
             meta: "50% off on all orders",
             discountType: "Percentage",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         subHeader: "",
         headerType: 0,
-        superFreedel: "",
+        superFreedel: ""
       },
       aggregatedDiscountInfoV2: {
         header: "50% OFF",
@@ -456,24 +456,24 @@ const resList = [
           {
             meta: "Free Delivery",
             discountType: "FREE_DELIVERY",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         descriptionList: [
           {
             meta: "FREE DELIVERY",
             discountType: "FREE_DELIVERY",
-            operationType: "RESTAURANT",
+            operationType: "RESTAURANT"
           },
           {
             meta: "50% off on all orders",
             discountType: "Percentage",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         subHeader: "",
         headerType: 0,
-        superFreedel: "",
+        superFreedel: ""
       },
       chain: [],
       feeDetails: {
@@ -482,12 +482,12 @@ const resList = [
         message: "",
         title: "",
         amount: "",
-        icon: "",
+        icon: ""
       },
       availability: {
         opened: true,
         nextOpenMessage: "",
-        nextCloseMessage: "",
+        nextCloseMessage: ""
       },
       longDistanceEnabled: 0,
       rainMode: "NONE",
@@ -497,7 +497,7 @@ const resList = [
       badges: {
         imageBased: [],
         textBased: [],
-        textExtendedBadges: [],
+        textExtendedBadges: []
       },
       lastMileTravelString: "3 kms",
       hasSurge: false,
@@ -512,14 +512,14 @@ const resList = [
         rainMode: "NONE",
         longDistance: "NOT_LONG_DISTANCE",
         preferentialService: false,
-        iconType: "EMPTY",
+        iconType: "EMPTY"
       },
       promoted: false,
       avgRating: "3.8",
       totalRatings: 5000,
-      new: false,
+      new: false
     },
-    subtype: "basic",
+    subtype: "basic"
   },
   {
     type: "restaurant",
@@ -543,7 +543,7 @@ const resList = [
       lastMileTravel: 1.5,
       slugs: {
         restaurant: "call-me-chow-koramangala-koramangala",
-        city: "bangalore",
+        city: "bangalore"
       },
       cityState: "1",
       address:
@@ -561,19 +561,19 @@ const resList = [
           {
             meta: "40% off | Use SPECIALS",
             discountType: "Percentage",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         descriptionList: [
           {
             meta: "40% off up to ₹80 on select items | Use code SPECIALS",
             discountType: "Percentage",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         subHeader: "",
         headerType: 0,
-        superFreedel: "",
+        superFreedel: ""
       },
       aggregatedDiscountInfoV2: {
         header: "40% OFF",
@@ -581,24 +581,24 @@ const resList = [
           {
             meta: "Use SPECIALS",
             discountType: "Percentage",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         descriptionList: [
           {
             meta: "40% off up to ₹80 on select items | Use code SPECIALS",
             discountType: "Percentage",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         subHeader: "",
         headerType: 0,
-        superFreedel: "",
+        superFreedel: ""
       },
       ribbon: [
         {
-          type: "PROMOTED",
-        },
+          type: "PROMOTED"
+        }
       ],
       chain: [],
       feeDetails: {
@@ -607,12 +607,12 @@ const resList = [
         message: "",
         title: "",
         amount: "",
-        icon: "",
+        icon: ""
       },
       availability: {
         opened: true,
         nextOpenMessage: "",
-        nextCloseMessage: "",
+        nextCloseMessage: ""
       },
       longDistanceEnabled: 0,
       rainMode: "NONE",
@@ -622,7 +622,7 @@ const resList = [
       badges: {
         imageBased: [],
         textBased: [],
-        textExtendedBadges: [],
+        textExtendedBadges: []
       },
       lastMileTravelString: "1.5 kms",
       hasSurge: false,
@@ -637,14 +637,14 @@ const resList = [
         rainMode: "NONE",
         longDistance: "NOT_LONG_DISTANCE",
         preferentialService: false,
-        iconType: "EMPTY",
+        iconType: "EMPTY"
       },
       promoted: true,
       avgRating: "4.3",
       totalRatings: 1000,
-      new: false,
+      new: false
     },
-    subtype: "basic",
+    subtype: "basic"
   },
   {
     type: "restaurant",
@@ -668,7 +668,7 @@ const resList = [
       lastMileTravel: 2.5,
       slugs: {
         restaurant: "kannur-food-kitchen-btm-btm",
-        city: "bangalore",
+        city: "bangalore"
       },
       cityState: "1",
       address:
@@ -686,29 +686,29 @@ const resList = [
           {
             meta: "FREE DELIVERY",
             discountType: "FREE_DELIVERY",
-            operationType: "RESTAURANT",
+            operationType: "RESTAURANT"
           },
           {
             meta: "50% off on all orders",
             discountType: "Percentage",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         descriptionList: [
           {
             meta: "FREE DELIVERY",
             discountType: "FREE_DELIVERY",
-            operationType: "RESTAURANT",
+            operationType: "RESTAURANT"
           },
           {
             meta: "50% off on all orders",
             discountType: "Percentage",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         subHeader: "",
         headerType: 0,
-        superFreedel: "",
+        superFreedel: ""
       },
       aggregatedDiscountInfoV2: {
         header: "50% OFF",
@@ -716,24 +716,24 @@ const resList = [
           {
             meta: "Free Delivery",
             discountType: "FREE_DELIVERY",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         descriptionList: [
           {
             meta: "FREE DELIVERY",
             discountType: "FREE_DELIVERY",
-            operationType: "RESTAURANT",
+            operationType: "RESTAURANT"
           },
           {
             meta: "50% off on all orders",
             discountType: "Percentage",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         subHeader: "",
         headerType: 0,
-        superFreedel: "",
+        superFreedel: ""
       },
       chain: [],
       feeDetails: {
@@ -742,12 +742,12 @@ const resList = [
         message: "",
         title: "",
         amount: "",
-        icon: "",
+        icon: ""
       },
       availability: {
         opened: true,
         nextOpenMessage: "",
-        nextCloseMessage: "",
+        nextCloseMessage: ""
       },
       longDistanceEnabled: 0,
       rainMode: "NONE",
@@ -757,7 +757,7 @@ const resList = [
       badges: {
         imageBased: [],
         textBased: [],
-        textExtendedBadges: [],
+        textExtendedBadges: []
       },
       lastMileTravelString: "2.5 kms",
       hasSurge: false,
@@ -772,14 +772,14 @@ const resList = [
         rainMode: "NONE",
         longDistance: "NOT_LONG_DISTANCE",
         preferentialService: false,
-        iconType: "EMPTY",
+        iconType: "EMPTY"
       },
       promoted: false,
       avgRating: "3.8",
       totalRatings: 1000,
-      new: false,
+      new: false
     },
-    subtype: "basic",
+    subtype: "basic"
   },
   {
     type: "restaurant",
@@ -803,7 +803,7 @@ const resList = [
       lastMileTravel: 1,
       slugs: {
         restaurant: "new-roti-wala-koramangala-koramangala",
-        city: "bangalore",
+        city: "bangalore"
       },
       cityState: "1",
       address:
@@ -821,19 +821,19 @@ const resList = [
           {
             meta: "20% off | Use TRYNEW",
             discountType: "Percentage",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         descriptionList: [
           {
             meta: "20% off up to ₹50 | Use code TRYNEW",
             discountType: "Percentage",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         subHeader: "",
         headerType: 0,
-        superFreedel: "",
+        superFreedel: ""
       },
       aggregatedDiscountInfoV2: {
         header: "20% OFF",
@@ -841,19 +841,19 @@ const resList = [
           {
             meta: "Use TRYNEW",
             discountType: "Percentage",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         descriptionList: [
           {
             meta: "20% off up to ₹50 | Use code TRYNEW",
             discountType: "Percentage",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         subHeader: "",
         headerType: 0,
-        superFreedel: "",
+        superFreedel: ""
       },
       chain: [],
       feeDetails: {
@@ -862,12 +862,12 @@ const resList = [
         message: "",
         title: "",
         amount: "",
-        icon: "",
+        icon: ""
       },
       availability: {
         opened: true,
         nextOpenMessage: "",
-        nextCloseMessage: "",
+        nextCloseMessage: ""
       },
       longDistanceEnabled: 0,
       rainMode: "NONE",
@@ -877,7 +877,7 @@ const resList = [
       badges: {
         imageBased: [],
         textBased: [],
-        textExtendedBadges: [],
+        textExtendedBadges: []
       },
       lastMileTravelString: "1 kms",
       hasSurge: false,
@@ -892,14 +892,14 @@ const resList = [
         rainMode: "NONE",
         longDistance: "NOT_LONG_DISTANCE",
         preferentialService: false,
-        iconType: "EMPTY",
+        iconType: "EMPTY"
       },
       promoted: false,
       avgRating: "4.1",
       totalRatings: 100,
-      new: false,
+      new: false
     },
-    subtype: "basic",
+    subtype: "basic"
   },
   {
     type: "restaurant",
@@ -923,7 +923,7 @@ const resList = [
       lastMileTravel: 1.2999999523162842,
       slugs: {
         restaurant: "leon-grill-koramangala-koramangala",
-        city: "bangalore",
+        city: "bangalore"
       },
       cityState: "1",
       address:
@@ -941,19 +941,19 @@ const resList = [
           {
             meta: "40% off | Use SPECIALS",
             discountType: "Percentage",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         descriptionList: [
           {
             meta: "40% off up to ₹80 on select items | Use code SPECIALS",
             discountType: "Percentage",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         subHeader: "",
         headerType: 0,
-        superFreedel: "",
+        superFreedel: ""
       },
       aggregatedDiscountInfoV2: {
         header: "40% OFF",
@@ -961,24 +961,24 @@ const resList = [
           {
             meta: "Use SPECIALS",
             discountType: "Percentage",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         descriptionList: [
           {
             meta: "40% off up to ₹80 on select items | Use code SPECIALS",
             discountType: "Percentage",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         subHeader: "",
         headerType: 0,
-        superFreedel: "",
+        superFreedel: ""
       },
       ribbon: [
         {
-          type: "PROMOTED",
-        },
+          type: "PROMOTED"
+        }
       ],
       chain: [],
       feeDetails: {
@@ -987,12 +987,12 @@ const resList = [
         message: "",
         title: "",
         amount: "",
-        icon: "",
+        icon: ""
       },
       availability: {
         opened: true,
         nextOpenMessage: "",
-        nextCloseMessage: "",
+        nextCloseMessage: ""
       },
       longDistanceEnabled: 0,
       rainMode: "NONE",
@@ -1002,7 +1002,7 @@ const resList = [
       badges: {
         imageBased: [],
         textBased: [],
-        textExtendedBadges: [],
+        textExtendedBadges: []
       },
       lastMileTravelString: "1.2 kms",
       hasSurge: false,
@@ -1017,14 +1017,14 @@ const resList = [
         rainMode: "NONE",
         longDistance: "NOT_LONG_DISTANCE",
         preferentialService: false,
-        iconType: "EMPTY",
+        iconType: "EMPTY"
       },
       promoted: true,
       avgRating: "4.3",
       totalRatings: 1000,
-      new: false,
+      new: false
     },
-    subtype: "basic",
+    subtype: "basic"
   },
   {
     type: "restaurant",
@@ -1048,7 +1048,7 @@ const resList = [
       lastMileTravel: 1.2999999523162842,
       slugs: {
         restaurant: "hotel-empire-5th-block-koramangala",
-        city: "bangalore",
+        city: "bangalore"
       },
       cityState: "1",
       address:
@@ -1066,19 +1066,19 @@ const resList = [
           {
             meta: "10% off | Use TRYNEW",
             discountType: "Percentage",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         descriptionList: [
           {
             meta: "10% off up to ₹40 | Use code TRYNEW",
             discountType: "Percentage",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         subHeader: "",
         headerType: 0,
-        superFreedel: "",
+        superFreedel: ""
       },
       aggregatedDiscountInfoV2: {
         header: "10% OFF",
@@ -1086,19 +1086,19 @@ const resList = [
           {
             meta: "Use TRYNEW",
             discountType: "Percentage",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         descriptionList: [
           {
             meta: "10% off up to ₹40 | Use code TRYNEW",
             discountType: "Percentage",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         subHeader: "",
         headerType: 0,
-        superFreedel: "",
+        superFreedel: ""
       },
       chain: [],
       feeDetails: {
@@ -1107,12 +1107,12 @@ const resList = [
         message: "",
         title: "",
         amount: "",
-        icon: "",
+        icon: ""
       },
       availability: {
         opened: true,
         nextOpenMessage: "",
-        nextCloseMessage: "",
+        nextCloseMessage: ""
       },
       longDistanceEnabled: 0,
       rainMode: "NONE",
@@ -1122,7 +1122,7 @@ const resList = [
       badges: {
         imageBased: [],
         textBased: [],
-        textExtendedBadges: [],
+        textExtendedBadges: []
       },
       lastMileTravelString: "1.2 kms",
       hasSurge: false,
@@ -1137,14 +1137,14 @@ const resList = [
         rainMode: "NONE",
         longDistance: "NOT_LONG_DISTANCE",
         preferentialService: false,
-        iconType: "EMPTY",
+        iconType: "EMPTY"
       },
       promoted: false,
       avgRating: "4.1",
       totalRatings: 1000,
-      new: false,
+      new: false
     },
-    subtype: "basic",
+    subtype: "basic"
   },
   {
     type: "restaurant",
@@ -1168,7 +1168,7 @@ const resList = [
       lastMileTravel: 1.899999976158142,
       slugs: {
         restaurant: "biryani-pot-madiwala-junction-btm",
-        city: "bangalore",
+        city: "bangalore"
       },
       cityState: "1",
       address: "14th  Cross, 4th link Road Maruthi Nagar Madiwala Bangalore 68",
@@ -1185,19 +1185,19 @@ const resList = [
           {
             meta: "20% off | Use TRYNEW",
             discountType: "Percentage",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         descriptionList: [
           {
             meta: "20% off up to ₹50 | Use code TRYNEW",
             discountType: "Percentage",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         subHeader: "",
         headerType: 0,
-        superFreedel: "",
+        superFreedel: ""
       },
       aggregatedDiscountInfoV2: {
         header: "20% OFF",
@@ -1205,19 +1205,19 @@ const resList = [
           {
             meta: "Use TRYNEW",
             discountType: "Percentage",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         descriptionList: [
           {
             meta: "20% off up to ₹50 | Use code TRYNEW",
             discountType: "Percentage",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         subHeader: "",
         headerType: 0,
-        superFreedel: "",
+        superFreedel: ""
       },
       chain: [],
       feeDetails: {
@@ -1226,12 +1226,12 @@ const resList = [
         message: "",
         title: "",
         amount: "",
-        icon: "",
+        icon: ""
       },
       availability: {
         opened: true,
         nextOpenMessage: "",
-        nextCloseMessage: "",
+        nextCloseMessage: ""
       },
       longDistanceEnabled: 0,
       rainMode: "NONE",
@@ -1241,7 +1241,7 @@ const resList = [
       badges: {
         imageBased: [],
         textBased: [],
-        textExtendedBadges: [],
+        textExtendedBadges: []
       },
       lastMileTravelString: "1.8 kms",
       hasSurge: false,
@@ -1256,14 +1256,14 @@ const resList = [
         rainMode: "NONE",
         longDistance: "NOT_LONG_DISTANCE",
         preferentialService: false,
-        iconType: "EMPTY",
+        iconType: "EMPTY"
       },
       promoted: false,
       avgRating: "3.8",
       totalRatings: 1000,
-      new: false,
+      new: false
     },
-    subtype: "basic",
+    subtype: "basic"
   },
   {
     type: "restaurant",
@@ -1287,7 +1287,7 @@ const resList = [
       lastMileTravel: 0.800000011920929,
       slugs: {
         restaurant: "the-coorg-food-co.-koramangala-koramangala",
-        city: "bangalore",
+        city: "bangalore"
       },
       cityState: "1",
       address:
@@ -1305,19 +1305,19 @@ const resList = [
           {
             meta: "FREE DELIVERY",
             discountType: "FREE_DELIVERY",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         descriptionList: [
           {
             meta: "FREE DELIVERY",
             discountType: "FREE_DELIVERY",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         subHeader: "",
         headerType: 0,
-        superFreedel: "",
+        superFreedel: ""
       },
       aggregatedDiscountInfoV2: {
         header: "",
@@ -1325,24 +1325,24 @@ const resList = [
           {
             meta: "Free Delivery",
             discountType: "FREE_DELIVERY",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         descriptionList: [
           {
             meta: "FREE DELIVERY",
             discountType: "FREE_DELIVERY",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         subHeader: "",
         headerType: 0,
-        superFreedel: "",
+        superFreedel: ""
       },
       ribbon: [
         {
-          type: "PROMOTED",
-        },
+          type: "PROMOTED"
+        }
       ],
       chain: [],
       feeDetails: {
@@ -1351,12 +1351,12 @@ const resList = [
         message: "",
         title: "",
         amount: "",
-        icon: "",
+        icon: ""
       },
       availability: {
         opened: true,
         nextOpenMessage: "",
-        nextCloseMessage: "Closes soon",
+        nextCloseMessage: "Closes soon"
       },
       longDistanceEnabled: 0,
       rainMode: "NONE",
@@ -1366,7 +1366,7 @@ const resList = [
       badges: {
         imageBased: [],
         textBased: [],
-        textExtendedBadges: [],
+        textExtendedBadges: []
       },
       lastMileTravelString: "0.8 kms",
       hasSurge: false,
@@ -1381,14 +1381,14 @@ const resList = [
         rainMode: "NONE",
         longDistance: "NOT_LONG_DISTANCE",
         preferentialService: false,
-        iconType: "EMPTY",
+        iconType: "EMPTY"
       },
       promoted: true,
       avgRating: "4.3",
       totalRatings: 100,
-      new: false,
+      new: false
     },
-    subtype: "basic",
+    subtype: "basic"
   },
   {
     type: "restaurant",
@@ -1412,7 +1412,7 @@ const resList = [
       lastMileTravel: 1.399999976158142,
       slugs: {
         restaurant: "madeena-hotel-koramangala-koramangala",
-        city: "bangalore",
+        city: "bangalore"
       },
       cityState: "1",
       address:
@@ -1430,19 +1430,19 @@ const resList = [
           {
             meta: "FREE DELIVERY",
             discountType: "FREE_DELIVERY",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         descriptionList: [
           {
             meta: "FREE DELIVERY",
             discountType: "FREE_DELIVERY",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         subHeader: "",
         headerType: 0,
-        superFreedel: "",
+        superFreedel: ""
       },
       aggregatedDiscountInfoV2: {
         header: "",
@@ -1450,19 +1450,19 @@ const resList = [
           {
             meta: "Free Delivery",
             discountType: "FREE_DELIVERY",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         descriptionList: [
           {
             meta: "FREE DELIVERY",
             discountType: "FREE_DELIVERY",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         subHeader: "",
         headerType: 0,
-        superFreedel: "",
+        superFreedel: ""
       },
       chain: [],
       feeDetails: {
@@ -1471,12 +1471,12 @@ const resList = [
         message: "",
         title: "",
         amount: "",
-        icon: "",
+        icon: ""
       },
       availability: {
         opened: true,
         nextOpenMessage: "",
-        nextCloseMessage: "",
+        nextCloseMessage: ""
       },
       longDistanceEnabled: 0,
       rainMode: "NONE",
@@ -1486,7 +1486,7 @@ const resList = [
       badges: {
         imageBased: [],
         textBased: [],
-        textExtendedBadges: [],
+        textExtendedBadges: []
       },
       lastMileTravelString: "1.3 kms",
       hasSurge: false,
@@ -1501,14 +1501,14 @@ const resList = [
         rainMode: "NONE",
         longDistance: "NOT_LONG_DISTANCE",
         preferentialService: false,
-        iconType: "EMPTY",
+        iconType: "EMPTY"
       },
       promoted: false,
       avgRating: "4.1",
       totalRatings: 1000,
-      new: false,
+      new: false
     },
-    subtype: "basic",
+    subtype: "basic"
   },
   {
     type: "restaurant",
@@ -1532,7 +1532,7 @@ const resList = [
       lastMileTravel: 2.700000047683716,
       slugs: {
         restaurant: "bengali-fun-foods-btm-btm",
-        city: "bangalore",
+        city: "bangalore"
       },
       cityState: "1",
       address:
@@ -1550,19 +1550,19 @@ const resList = [
           {
             meta: "30% off | Use TRYNEW",
             discountType: "Percentage",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         descriptionList: [
           {
             meta: "30% off up to ₹75 | Use code TRYNEW",
             discountType: "Percentage",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         subHeader: "",
         headerType: 0,
-        superFreedel: "",
+        superFreedel: ""
       },
       aggregatedDiscountInfoV2: {
         header: "30% OFF",
@@ -1570,24 +1570,24 @@ const resList = [
           {
             meta: "Use TRYNEW",
             discountType: "Percentage",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         descriptionList: [
           {
             meta: "30% off up to ₹75 | Use code TRYNEW",
             discountType: "Percentage",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         subHeader: "",
         headerType: 0,
-        superFreedel: "",
+        superFreedel: ""
       },
       ribbon: [
         {
-          type: "PROMOTED",
-        },
+          type: "PROMOTED"
+        }
       ],
       chain: [],
       feeDetails: {
@@ -1596,12 +1596,12 @@ const resList = [
         message: "",
         title: "",
         amount: "",
-        icon: "",
+        icon: ""
       },
       availability: {
         opened: true,
         nextOpenMessage: "",
-        nextCloseMessage: "",
+        nextCloseMessage: ""
       },
       longDistanceEnabled: 0,
       rainMode: "NONE",
@@ -1611,7 +1611,7 @@ const resList = [
       badges: {
         imageBased: [],
         textBased: [],
-        textExtendedBadges: [],
+        textExtendedBadges: []
       },
       lastMileTravelString: "2.7 kms",
       hasSurge: false,
@@ -1626,14 +1626,14 @@ const resList = [
         rainMode: "NONE",
         longDistance: "NOT_LONG_DISTANCE",
         preferentialService: false,
-        iconType: "EMPTY",
+        iconType: "EMPTY"
       },
       promoted: true,
       avgRating: "4.3",
       totalRatings: 500,
-      new: false,
+      new: false
     },
-    subtype: "basic",
+    subtype: "basic"
   },
   {
     type: "restaurant",
@@ -1652,7 +1652,7 @@ const resList = [
         "Chinese",
         "Desserts",
         "Mughlai",
-        "North Indian",
+        "North Indian"
       ],
       tags: [],
       costForTwo: 40000,
@@ -1664,7 +1664,7 @@ const resList = [
       lastMileTravel: 4.400000095367432,
       slugs: {
         restaurant: "al-daaz-hsr-hsr",
-        city: "bangalore",
+        city: "bangalore"
       },
       cityState: "1",
       address: "#64 & 65, 27th Main Rd, 1st Sector HSR Layout - 560102",
@@ -1681,19 +1681,19 @@ const resList = [
           {
             meta: "FREE DELIVERY",
             discountType: "FREE_DELIVERY",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         descriptionList: [
           {
             meta: "FREE DELIVERY",
             discountType: "FREE_DELIVERY",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         subHeader: "",
         headerType: 0,
-        superFreedel: "",
+        superFreedel: ""
       },
       aggregatedDiscountInfoV2: {
         header: "",
@@ -1701,19 +1701,19 @@ const resList = [
           {
             meta: "Free Delivery",
             discountType: "FREE_DELIVERY",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         descriptionList: [
           {
             meta: "FREE DELIVERY",
             discountType: "FREE_DELIVERY",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         subHeader: "",
         headerType: 0,
-        superFreedel: "",
+        superFreedel: ""
       },
       chain: [],
       feeDetails: {
@@ -1722,12 +1722,12 @@ const resList = [
         message: "",
         title: "",
         amount: "",
-        icon: "",
+        icon: ""
       },
       availability: {
         opened: true,
         nextOpenMessage: "",
-        nextCloseMessage: "",
+        nextCloseMessage: ""
       },
       longDistanceEnabled: 0,
       rainMode: "NONE",
@@ -1737,7 +1737,7 @@ const resList = [
       badges: {
         imageBased: [],
         textBased: [],
-        textExtendedBadges: [],
+        textExtendedBadges: []
       },
       lastMileTravelString: "4.4 kms",
       hasSurge: false,
@@ -1752,14 +1752,14 @@ const resList = [
         rainMode: "NONE",
         longDistance: "NOT_LONG_DISTANCE",
         preferentialService: false,
-        iconType: "EMPTY",
+        iconType: "EMPTY"
       },
       promoted: false,
       avgRating: "4.3",
       totalRatings: 100,
-      new: false,
+      new: false
     },
-    subtype: "basic",
+    subtype: "basic"
   },
   {
     type: "restaurant",
@@ -1783,7 +1783,7 @@ const resList = [
       lastMileTravel: 1.399999976158142,
       slugs: {
         restaurant: "burger-king-koramangala",
-        city: "bangalore",
+        city: "bangalore"
       },
       cityState: "1",
       address:
@@ -1801,29 +1801,29 @@ const resList = [
           {
             meta: "Get every item under 129",
             discountType: "FinalPrice",
-            operationType: "RESTAURANT",
+            operationType: "RESTAURANT"
           },
           {
             meta: "FREE DELIVERY",
             discountType: "FREE_DELIVERY",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         descriptionList: [
           {
             meta: "Get every item under 129",
             discountType: "FinalPrice",
-            operationType: "RESTAURANT",
+            operationType: "RESTAURANT"
           },
           {
             meta: "FREE DELIVERY",
             discountType: "FREE_DELIVERY",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         subHeader: "",
         headerType: 0,
-        superFreedel: "",
+        superFreedel: ""
       },
       aggregatedDiscountInfoV2: {
         header: "",
@@ -1831,24 +1831,24 @@ const resList = [
           {
             meta: "",
             discountType: "FinalPrice",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         descriptionList: [
           {
             meta: "Get every item under 129",
             discountType: "FinalPrice",
-            operationType: "RESTAURANT",
+            operationType: "RESTAURANT"
           },
           {
             meta: "FREE DELIVERY",
             discountType: "FREE_DELIVERY",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         subHeader: "",
         headerType: 0,
-        superFreedel: "",
+        superFreedel: ""
       },
       chain: [],
       feeDetails: {
@@ -1857,12 +1857,12 @@ const resList = [
         message: "",
         title: "",
         amount: "",
-        icon: "",
+        icon: ""
       },
       availability: {
         opened: true,
         nextOpenMessage: "",
-        nextCloseMessage: "",
+        nextCloseMessage: ""
       },
       longDistanceEnabled: 0,
       rainMode: "NONE",
@@ -1872,7 +1872,7 @@ const resList = [
       badges: {
         imageBased: [],
         textBased: [],
-        textExtendedBadges: [],
+        textExtendedBadges: []
       },
       lastMileTravelString: "1.3 kms",
       hasSurge: false,
@@ -1887,14 +1887,14 @@ const resList = [
         rainMode: "NONE",
         longDistance: "NOT_LONG_DISTANCE",
         preferentialService: false,
-        iconType: "EMPTY",
+        iconType: "EMPTY"
       },
       promoted: false,
       avgRating: "4.2",
       totalRatings: 1000,
-      new: false,
+      new: false
     },
-    subtype: "basic",
+    subtype: "basic"
   },
   {
     type: "restaurant",
@@ -1918,7 +1918,7 @@ const resList = [
       lastMileTravel: 4.699999809265137,
       slugs: {
         restaurant: "hotel-salam-hsr-hsr",
-        city: "bangalore",
+        city: "bangalore"
       },
       cityState: "1",
       address:
@@ -1936,19 +1936,19 @@ const resList = [
           {
             meta: "FLAT100 off | Use FLATDEAL",
             discountType: "Flat",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         descriptionList: [
           {
             meta: "FLAT100 off | Use FLATDEAL",
             discountType: "Flat",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         subHeader: "",
         headerType: 0,
-        superFreedel: "",
+        superFreedel: ""
       },
       aggregatedDiscountInfoV2: {
         header: "₹100 OFF",
@@ -1956,19 +1956,19 @@ const resList = [
           {
             meta: "Use FLATDEAL",
             discountType: "Flat",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         descriptionList: [
           {
             meta: "FLAT100 off | Use FLATDEAL",
             discountType: "Flat",
-            operationType: "RESTAURANT",
-          },
+            operationType: "RESTAURANT"
+          }
         ],
         subHeader: "",
         headerType: 0,
-        superFreedel: "",
+        superFreedel: ""
       },
       chain: [],
       feeDetails: {
@@ -1977,12 +1977,12 @@ const resList = [
         message: "",
         title: "",
         amount: "",
-        icon: "",
+        icon: ""
       },
       availability: {
         opened: true,
         nextOpenMessage: "",
-        nextCloseMessage: "",
+        nextCloseMessage: ""
       },
       longDistanceEnabled: 0,
       rainMode: "NONE",
@@ -1992,7 +1992,7 @@ const resList = [
       badges: {
         imageBased: [],
         textBased: [],
-        textExtendedBadges: [],
+        textExtendedBadges: []
       },
       lastMileTravelString: "4.6 kms",
       hasSurge: false,
@@ -2007,15 +2007,15 @@ const resList = [
         rainMode: "NONE",
         longDistance: "NOT_LONG_DISTANCE",
         preferentialService: false,
-        iconType: "EMPTY",
+        iconType: "EMPTY"
       },
       promoted: false,
       avgRating: "3.9",
       totalRatings: 500,
-      new: false,
+      new: false
     },
-    subtype: "basic",
-  },
+    subtype: "basic"
+  }
 ];
 const Body = () => {
   return (
@@ -2023,10 +2023,6 @@ const Body = () => {
       <div className="search">Search</div>
       <div className="res-container">
         <ReastaurantCard resData={resList[1]} />
-        {/* <ReastaurantCard resName="KFC" cusines="Burger, Zinger"/>
-        <ReastaurantCard resName="RG Chai" cusines="Tea, Milk"/>
-        <ReastaurantCard resName="MomoFoods" cusines="Momo"/>
-         */}
       </div>
     </div>
   );
