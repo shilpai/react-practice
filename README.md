@@ -43,3 +43,21 @@
    - A function which is returning some piece of jsx is a functional component
 
   *** need to read about cross-site scripting attack ***
+
+  # Food Portal 
+  /**
+ * #Header
+ * - Logo
+ * - Nav items
+ *
+ * #Body
+ * - Search
+ * - RestaurantContainer
+ *   - Restaurant Card
+ *
+ * #Footer
+ * - Copyright
+ * - Links
+ * - Address
+ * - Content
+ */
