@@ -1,8 +1,56 @@
 import ReastaurantCard from "./Restaurants";
 import resList from "../utils/MockData";
+import { useState } from "react";
 
 const Body = () => {
-  let listOfRestaurants = [
+
+ // Local state variable to hold the list of restaurants
+ const [listOfRestaurants, setListOfRestaurants] = useState([ {
+      data: {
+        id: "334475",
+        name: "KFC",
+        totalRatingsString: "500+ ratings",
+        cloudinaryImageId: "bdcd233971b7c81bf77e1fa4471280eb",
+        cuisines: ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+        costForTwo: 40000,
+        costForTwoString: "₹400 FOR TWO",
+        deliveryTime: 36,
+        slaString: "36 MINS",
+        avgRating: "3.8"
+      }
+    },
+    {
+      data: {
+        id: "334476",
+        name: "Dominos",
+        totalRatingsString: "500+ ratings",
+        cloudinaryImageId: "bdcd233971b7c81bf77e1fa4471280eb",
+        cuisines: ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+        costForTwo: 40000,
+        costForTwoString: "₹400 FOR TWO",
+        deliveryTime: 36,
+        slaString: "36 MINS",
+        avgRating: "4.5"
+      }
+    },
+    {
+      data: {
+        id: "334477",
+        name: "McDonald's",
+        totalRatingsString: "500+ ratings",
+        cloudinaryImageId: "bdcd233971b7c81bf77e1fa4471280eb",
+        cuisines: ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+        costForTwo: 40000,
+        costForTwoString: "₹400 FOR TWO",
+        deliveryTime: 36,
+        slaString: "36 MINS",
+        avgRating: "4.1"
+      }
+    }]);
+
+  // normal variable to hold the list of restaurants
+  // This can be replaced with state if you want to make it dynamic
+  let listOfRestaurants1 = [
     {
       data: {
         id: "334475",
@@ -54,10 +102,10 @@ const Body = () => {
           className="filter-btn"
           onClick={() => {
             // Filter logic here
-            listOfRestaurants = listOfRestaurants.filter(
+            const filteredList = listOfRestaurants.filter(
               (res) => res.data.avgRating > 4
             );
-            console.log("Filtered Restaurants: ", listOfRestaurants);
+            setListOfRestaurants(filteredList);
           }}
           title="Search here"
         >
