@@ -5,7 +5,7 @@ import { useState } from "react";
 const Body = () => {
   // Local state variable to hold the list of restaurants = super powerfull variable
   // useState is a hook that allows us to create state variables in functional components
-  const [listOfRestaurants, setListOfRestaurants] = useState(...resList);
+  const [listOfRestaurants, setListOfRestaurants] = useState(resList);
 
   return (
     <div className="body">
