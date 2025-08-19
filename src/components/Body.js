@@ -1,38 +1,57 @@
 import ReastaurantCard from "./Restaurants";
 import resList from "../utils/MockData";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Body = () => {
-  // Local state variable to hold the list of restaurants = super powerfull variable
-  // useState is a hook that allows us to create state variables in functional components
   const [listOfRestaurants, setListOfRestaurants] = useState(resList);
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  const fetchData = async () => {
+    try {
+      const data = await fetch(
+        "https://www.swiggy.com/dapi/restaurants/list/v5?lat=18.578866647717145&lng=73.87590385973454&collection=83631&tags=layout_CCS_Pizza&sortBy=&filters=&type=rcv2&offset=0&page_type=null"
+      );
+      const json = await data.json();
+
+      console.log("API Response:", json);
+
+      // Swiggy API cards can have many types, we only want the restaurant info
+      const restaurants =
+        json?.data?.cards
+          ?.map((card) => card?.data || card?.card?.card?.info)
+          ?.filter((res) => res) || [];
+
+      setListOfRestaurants(restaurants);
+    } catch (error) {
+      console.error("Error fetching data:", error);
+    }
+  };
+
+  const filterTopRated = () => {
+    const filteredList = listOfRestaurants.filter(
+      (res) => (res?.avgRating || res?.avgRatingString) > 4
+    );
+    setListOfRestaurants(filteredList);
+  };
 
   return (
     <div className="body">
       <div className="filter">
-        <button
-          className="filter-btn"
-          onClick={() => {
-            // Filter logic here
-            const filteredList = listOfRestaurants.filter(
-              (res) => res.data.avgRating > 4
-            );
-            setListOfRestaurants(filteredList);
-          }}
-          title="Search here"
-        >
+        <button className="filter-btn" onClick={filterTopRated}>
           Top Rated Restaurants
         </button>
       </div>
+
       <div className="res-container">
-        {listOfRestaurants.map((restaurant) => (
-          <ReastaurantCard key={restaurant.data.id} resData={restaurant} />
+        {listOfRestaurants.map((restaurant, index) => (
+          <ReastaurantCard
+            key={restaurant?.id || index}
+            resData={restaurant}
+          />
         ))}
-        {/* <ReastaurantCard resData={resList[0]} />
-        <ReastaurantCard resData={resList[1]} />
-        <ReastaurantCard resData={resList[2]} />
-        <ReastaurantCard resData={resList[3]} />
-        <ReastaurantCard resData={resList[4]} /> */}
       </div>
     </div>
   );
