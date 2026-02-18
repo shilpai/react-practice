@@ -4,6 +4,7 @@ import Shimmer from "./Shimmer";
 
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
+  const [filteredRestaurants, setFilteredRestaurants] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
 
   console.log("Body rendered");
@@ -28,6 +29,7 @@ const Body = () => {
           ?.filter((res) => res) || [];
 
       setListOfRestaurants(restaurants);
+      setFilteredRestaurants(restaurants);
     } catch (error) {
       console.error("Error fetching data:", error);
     }
@@ -52,6 +54,14 @@ const Body = () => {
       <div className="filter">
         <div className="search">
           <input type="text" placeholder="Search..." value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />
+          <button className="search-btn" onClick={() => {
+            const filteredList = listOfRestaurants.filter((res) =>
+              res?.name?.toLowerCase().includes(searchTerm.toLowerCase())
+            );
+            setFilteredRestaurants(filteredList);
+          }}>
+            Search
+          </button>
         </div>
         <button className="filter-btn" onClick={filterTopRated}>
           Top Rated Restaurants
@@ -59,7 +69,7 @@ const Body = () => {
       </div>
 
       <div className="res-container">
-        {listOfRestaurants.map((restaurant, index) => (
+        {filteredRestaurants.map((restaurant, index) => (
           <ReastaurantCard
             key={restaurant?.id || index}
             resData={restaurant}
