@@ -61,3 +61,8 @@
  * - Address
  * - Content
  */
+
+ # Children Routing
+ - Used to create nested routes within a parent route.
+ - Defined in the `appRouter` configuration using the `children` property.
+ - The `<Outlet />` component is used in the parent component to render the matched child route.
