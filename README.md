@@ -66,3 +66,17 @@
  - Used to create nested routes within a parent route.
  - Defined in the `appRouter` configuration using the `children` property.
  - The `<Outlet />` component is used in the parent component to render the matched child route.
+
+ # 2 types of Routing in web apps
+ - Client Side Routing
+ - Server Side Routing
+
+ 1) Client Side Routing  
+ - It is done by react router dom
+ - It is very fast
+ - It is done by javascript
+ 
+ 2) server side routing
+ - It is done by server
+ - It is slow
+ - It is done by html
